@@ -1,0 +1,33 @@
+[4.854s] Invoking command in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch': PYTHONPATH=/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pekpuch build --build-base /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build install --record /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/install.log --single-version-externally-managed install_data
+[7.432s] running egg_info
+[7.447s] creating ../build/pekpuch/pekpuch.egg-info
+[7.464s] writing ../build/pekpuch/pekpuch.egg-info/PKG-INFO
+[7.501s] writing dependency_links to ../build/pekpuch/pekpuch.egg-info/dependency_links.txt
+[7.526s] writing entry points to ../build/pekpuch/pekpuch.egg-info/entry_points.txt
+[7.547s] writing requirements to ../build/pekpuch/pekpuch.egg-info/requires.txt
+[7.559s] writing top-level names to ../build/pekpuch/pekpuch.egg-info/top_level.txt
+[7.584s] writing manifest file '../build/pekpuch/pekpuch.egg-info/SOURCES.txt'
+[7.677s] reading manifest file '../build/pekpuch/pekpuch.egg-info/SOURCES.txt'
+[7.876s] writing manifest file '../build/pekpuch/pekpuch.egg-info/SOURCES.txt'
+[7.886s] running build
+[7.889s] running build_py
+[7.909s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build
+[7.916s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build/lib
+[7.924s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build/lib/pekpuch
+[7.956s] copying pekpuch/__init__.py -> /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build/lib/pekpuch
+[8.014s] running install
+[8.018s] running install_lib
+[8.149s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages/pekpuch
+[8.220s] copying /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build/lib/pekpuch/__init__.py -> /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages/pekpuch
+[8.314s] byte-compiling /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages/pekpuch/__init__.py to __init__.cpython-310.pyc
+[8.447s] running install_data
+[8.483s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/ament_index
+[8.493s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/ament_index/resource_index
+[8.506s] creating /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/ament_index/resource_index/packages
+[8.559s] copying resource/pekpuch -> /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/ament_index/resource_index/packages
+[8.651s] copying package.xml -> /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch
+[8.706s] running install_egg_info
+[8.771s] Copying ../build/pekpuch/pekpuch.egg-info to /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages/pekpuch-0.0.0-py3.10.egg-info
+[9.719s] running install_scripts
+[9.925s] writing list of installed files to '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/install.log'
+[10.049s] Invoked command in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch' returned '0': PYTHONPATH=/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pekpuch build --build-base /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build install --record /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/install.log --single-version-externally-managed install_data

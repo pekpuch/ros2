@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001090] (pekpuch) JobQueued: {'identifier': 'pekpuch', 'dependencies': OrderedDict()}
+[0.002856] (pekpuch) JobStarted: {'identifier': 'pekpuch'}
+[0.094382] (-) TimerEvent: {}
+[0.199766] (-) TimerEvent: {}
+[0.305068] (-) TimerEvent: {}
+[0.406527] (-) TimerEvent: {}
+[0.507563] (-) TimerEvent: {}
+[0.608718] (-) TimerEvent: {}
+[0.709834] (-) TimerEvent: {}
+[0.810816] (-) TimerEvent: {}
+[0.911787] (-) TimerEvent: {}
+[1.012784] (-) TimerEvent: {}
+[1.113874] (-) TimerEvent: {}
+[1.214900] (-) TimerEvent: {}
+[1.316421] (-) TimerEvent: {}
+[1.419625] (-) TimerEvent: {}
+[1.520513] (-) TimerEvent: {}
+[1.621419] (-) TimerEvent: {}
+[1.722461] (-) TimerEvent: {}
+[1.823332] (-) TimerEvent: {}
+[1.924450] (-) TimerEvent: {}
+[2.026019] (-) TimerEvent: {}
+[2.126938] (-) TimerEvent: {}
+[2.227900] (-) TimerEvent: {}
+[2.328934] (-) TimerEvent: {}
+[2.429974] (-) TimerEvent: {}
+[2.530954] (-) TimerEvent: {}
+[2.632049] (-) TimerEvent: {}
+[2.733227] (-) TimerEvent: {}
+[2.834444] (-) TimerEvent: {}
+[2.935686] (-) TimerEvent: {}
+[3.036837] (-) TimerEvent: {}
+[3.137701] (-) TimerEvent: {}
+[3.238736] (-) TimerEvent: {}
+[3.339711] (-) TimerEvent: {}
+[3.440574] (-) TimerEvent: {}
+[3.541730] (-) TimerEvent: {}
+[3.642826] (-) TimerEvent: {}
+[3.745981] (-) TimerEvent: {}
+[3.847303] (-) TimerEvent: {}
+[3.948672] (-) TimerEvent: {}
+[4.049659] (-) TimerEvent: {}
+[4.150432] (-) TimerEvent: {}
+[4.251516] (-) TimerEvent: {}
+[4.352245] (-) TimerEvent: {}
+[4.453111] (-) TimerEvent: {}
+[4.554096] (-) TimerEvent: {}
+[4.655224] (-) TimerEvent: {}
+[4.757789] (-) TimerEvent: {}
+[4.859121] (-) TimerEvent: {}
+[4.960210] (-) TimerEvent: {}
+[5.061955] (-) TimerEvent: {}
+[5.163198] (-) TimerEvent: {}
+[5.248020] (pekpuch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/pekpuch', 'build', '--build-base', '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build', 'install', '--record', '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pekpuch', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/pekpuch', 'OLDPWD': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pekpuch/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pekpuch', 'NAME': 'DESKTOP-5USLQ71', 'WSL_INTEROP': '/run/WSL/404_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/pekpuch/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/AmneziaWG/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/atlak/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/atlak/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/ProgramData/mingw64/mingw64/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/pekpuch/ros2_ws/install/examples_rclcpp_minimal_client:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/pekpuch/ros2_ws/install/examples_rclcpp_minimal_client', 'WSLENV': ''}, 'shell': False}
+[5.288599] (-) TimerEvent: {}
+[5.389621] (-) TimerEvent: {}
+[5.490805] (-) TimerEvent: {}
+[5.592141] (-) TimerEvent: {}
+[5.693256] (-) TimerEvent: {}
+[5.794974] (-) TimerEvent: {}
+[5.900103] (-) TimerEvent: {}
+[6.001511] (-) TimerEvent: {}
+[6.102781] (-) TimerEvent: {}
+[6.203959] (-) TimerEvent: {}
+[6.305153] (-) TimerEvent: {}
+[6.406327] (-) TimerEvent: {}
+[6.507191] (-) TimerEvent: {}
+[6.608011] (-) TimerEvent: {}
+[6.708802] (-) TimerEvent: {}
+[6.810115] (-) TimerEvent: {}
+[6.911219] (-) TimerEvent: {}
+[7.018842] (-) TimerEvent: {}
+[7.119717] (-) TimerEvent: {}
+[7.221088] (-) TimerEvent: {}
+[7.322865] (-) TimerEvent: {}
+[7.424357] (-) TimerEvent: {}
+[7.525921] (-) TimerEvent: {}
+[7.627468] (-) TimerEvent: {}
+[7.729260] (-) TimerEvent: {}
+[7.831207] (-) TimerEvent: {}
+[7.932045] (-) TimerEvent: {}
+[8.033101] (-) TimerEvent: {}
+[8.133981] (-) TimerEvent: {}
+[8.235135] (-) TimerEvent: {}
+[8.336115] (-) TimerEvent: {}
+[8.437290] (-) TimerEvent: {}
+[8.538232] (-) TimerEvent: {}
+[8.639187] (-) TimerEvent: {}
+[8.677610] (pekpuch) StdoutLine: {'line': b'running egg_info\n'}
+[8.692159] (pekpuch) StdoutLine: {'line': b'writing ../build/pekpuch/pekpuch.egg-info/PKG-INFO\n'}
+[8.711345] (pekpuch) StdoutLine: {'line': b'writing dependency_links to ../build/pekpuch/pekpuch.egg-info/dependency_links.txt\n'}
+[8.729674] (pekpuch) StdoutLine: {'line': b'writing entry points to ../build/pekpuch/pekpuch.egg-info/entry_points.txt\n'}
+[8.739395] (-) TimerEvent: {}
+[8.743808] (pekpuch) StdoutLine: {'line': b'writing requirements to ../build/pekpuch/pekpuch.egg-info/requires.txt\n'}
+[8.753401] (pekpuch) StdoutLine: {'line': b'writing top-level names to ../build/pekpuch/pekpuch.egg-info/top_level.txt\n'}
+[8.839806] (-) TimerEvent: {}
+[8.856761] (pekpuch) StdoutLine: {'line': b"reading manifest file '../build/pekpuch/pekpuch.egg-info/SOURCES.txt'\n"}
+[8.939997] (-) TimerEvent: {}
+[9.024655] (pekpuch) StdoutLine: {'line': b"writing manifest file '../build/pekpuch/pekpuch.egg-info/SOURCES.txt'\n"}
+[9.033006] (pekpuch) StdoutLine: {'line': b'running build\n'}
+[9.035652] (pekpuch) StdoutLine: {'line': b'running build_py\n'}
+[9.040153] (-) TimerEvent: {}
+[9.077637] (pekpuch) StdoutLine: {'line': b'running install\n'}
+[9.080055] (pekpuch) StdoutLine: {'line': b'running install_lib\n'}
+[9.140425] (-) TimerEvent: {}
+[9.229830] (pekpuch) StdoutLine: {'line': b'running install_data\n'}
+[9.240604] (-) TimerEvent: {}
+[9.294629] (pekpuch) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.322723] (pekpuch) StdoutLine: {'line': b"removing '/mnt/c/Users/atlak/OneDrive/\xd0\xa0\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x87\xd0\xb8\xd0\xb9 \xd1\x81\xd1\x82\xd0\xbe\xd0\xbb/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages/pekpuch-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.340876] (-) TimerEvent: {}
+[9.441714] (-) TimerEvent: {}
+[9.474548] (pekpuch) StdoutLine: {'line': b'Copying ../build/pekpuch/pekpuch.egg-info to /mnt/c/Users/atlak/OneDrive/\xd0\xa0\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x87\xd0\xb8\xd0\xb9 \xd1\x81\xd1\x82\xd0\xbe\xd0\xbb/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages/pekpuch-0.0.0-py3.10.egg-info\n'}
+[9.541893] (-) TimerEvent: {}
+[9.642869] (-) TimerEvent: {}
+[9.743806] (-) TimerEvent: {}
+[9.844665] (-) TimerEvent: {}
+[9.945374] (-) TimerEvent: {}
+[10.016103] (pekpuch) StdoutLine: {'line': b'running install_scripts\n'}
+[10.045512] (-) TimerEvent: {}
+[10.146946] (-) TimerEvent: {}
+[10.183290] (pekpuch) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/atlak/OneDrive/\xd0\xa0\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x87\xd0\xb8\xd0\xb9 \xd1\x81\xd1\x82\xd0\xbe\xd0\xbb/labs/ros/lab2/ex03/build/pekpuch/install.log'\n"}
+[10.230225] (pekpuch) CommandEnded: {'returncode': 0}
+[10.246994] (-) TimerEvent: {}
+[10.347732] (-) TimerEvent: {}
+[10.448424] (-) TimerEvent: {}
+[10.549274] (-) TimerEvent: {}
+[10.650532] (-) TimerEvent: {}
+[10.751800] (-) TimerEvent: {}
+[10.852527] (-) TimerEvent: {}
+[10.948701] (pekpuch) JobEnded: {'identifier': 'pekpuch', 'rc': 0}
+[10.981011] (-) TimerEvent: {}
+[10.982143] (-) EventReactorShutdown: {}

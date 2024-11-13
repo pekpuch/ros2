@@ -1,0 +1,115 @@
+[0.713s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pekpuch'][0m
+[0.714s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pekpuch'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f608fcfdc00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f608fe05c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f608fe05c60>>, mixin_verb=('build',))[0m
+[1.390s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.392s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.392s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.393s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.393s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.394s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.395s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03'
+[1.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.405s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.406s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.407s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.456s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.457s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.459s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.460s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.489s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.495s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extensions ['ignore', 'ignore_ament_install']
+[1.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extension 'ignore'
+[1.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extension 'ignore_ament_install'
+[1.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extensions ['colcon_pkg']
+[1.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extension 'colcon_pkg'
+[1.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extensions ['colcon_meta']
+[1.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extension 'colcon_meta'
+[1.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extensions ['ros']
+[1.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(pekpuch) by extension 'ros'
+[1.595s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'pekpuch' with type 'ros.ament_python' and name 'pekpuch'[0m
+[1.596s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.597s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.598s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.599s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.600s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.733s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[1.734s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[1.742s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/pekpuch/ros2_ws/install[0m
+[1.750s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 262 installed packages in /opt/ros/humble[0m
+[1.757s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.915s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'cmake_args' from command line to 'None'
+[1.916s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'cmake_target' from command line to 'None'
+[1.917s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.918s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.919s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'cmake_clean_first' from command line to 'False'
+[1.919s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'cmake_force_configure' from command line to 'False'
+[1.920s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'ament_cmake_args' from command line to 'None'
+[1.921s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.922s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pekpuch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.923s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'pekpuch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch', 'merge_install': False, 'path': '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch', 'symlink_install': False, 'test_result_base': None}[0m
+[1.924s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.928s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.929s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch' with build type 'ament_python'
+[1.931s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pekpuch', 'ament_prefix_path')
+[1.943s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/hook/ament_prefix_path.ps1'
+[1.995s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/hook/ament_prefix_path.dsv'
+[2.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/hook/ament_prefix_path.sh'
+[2.093s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.094s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.242s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch'
+[3.244s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.244s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[7.220s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch': PYTHONPATH=/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pekpuch build --build-base /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build install --record /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/install.log --single-version-externally-managed install_data[0m
+[12.166s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/pekpuch' returned '0': PYTHONPATH=/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/pekpuch build --build-base /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/build install --record /mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/build/pekpuch/install.log --single-version-externally-managed install_data[0m
+[12.170s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch' for CMake module files
+[12.300s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch' for CMake config files
+[12.533s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib'
+[12.555s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/bin'
+[12.562s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/pkgconfig/pekpuch.pc'
+[12.572s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/lib/python3.10/site-packages'
+[12.586s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pekpuch', 'pythonpath')
+[12.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/hook/pythonpath.ps1'
+[12.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/hook/pythonpath.dsv'
+[12.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/hook/pythonpath.sh'
+[12.705s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/bin'
+[12.708s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pekpuch)
+[12.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/package.ps1'
+[12.736s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/package.dsv'
+[12.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/package.sh'
+[12.802s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/package.bash'
+[12.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/pekpuch/package.zsh'
+[12.859s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/pekpuch/share/colcon-core/packages/pekpuch)
+[12.881s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[12.882s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[12.883s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[12.884s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[13.037s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.039s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.040s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.041s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[13.042s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory[0m
+[13.043s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[13.045s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/local_setup.ps1'
+[13.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/_local_setup_util_ps1.py'
+[13.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/setup.ps1'
+[13.106s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/local_setup.sh'
+[13.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/_local_setup_util_sh.py'
+[13.149s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/setup.sh'
+[13.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/local_setup.bash'
+[13.189s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/setup.bash'
+[13.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/local_setup.zsh'
+[13.223s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/mnt/c/Users/atlak/OneDrive/Рабочий стол/labs/ros/lab2/ex03/install/setup.zsh'
