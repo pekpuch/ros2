@@ -1,0 +1,5 @@
+source /tutorial_interfaces/install/local_setup.bash - для всех терминалов
+source ex01/install/local_setup.bash - для всех
+
+ros2 run service_full_name service
+ros2 run service_full_name client Иванов иван иванович

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/FullName.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct FullName_Request {
+      string last_name;
+
+      string first_name;
+
+      string patronymic;
+    };
+    struct FullName_Response {
+      string full_name;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+source;share/actions_turtle_commands/hook/pythonpath.ps1
+source;share/actions_turtle_commands/hook/pythonpath.dsv
+source;share/actions_turtle_commands/hook/pythonpath.sh

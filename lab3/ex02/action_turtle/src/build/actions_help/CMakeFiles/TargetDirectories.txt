@@ -1,0 +1,9 @@
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/uninstall.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/actions_help_uninstall.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/test.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/edit_cache.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/rebuild_cache.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/list_install_components.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/install.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/install/local.dir
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help/CMakeFiles/install/strip.dir

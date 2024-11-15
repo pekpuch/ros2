@@ -1,0 +1,20 @@
+running egg_info
+writing ../build/lubluxodit/lubluxodit.egg-info/PKG-INFO
+writing dependency_links to ../build/lubluxodit/lubluxodit.egg-info/dependency_links.txt
+writing entry points to ../build/lubluxodit/lubluxodit.egg-info/entry_points.txt
+writing requirements to ../build/lubluxodit/lubluxodit.egg-info/requires.txt
+writing top-level names to ../build/lubluxodit/lubluxodit.egg-info/top_level.txt
+reading manifest file '../build/lubluxodit/lubluxodit.egg-info/SOURCES.txt'
+writing manifest file '../build/lubluxodit/lubluxodit.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/share/lubluxodit
+copying launch/launch.py -> /home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/share/lubluxodit/launch
+running install_egg_info
+removing '/home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/lib/python3.10/site-packages/lubluxodit-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/lubluxodit/lubluxodit.egg-info to /home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/lib/python3.10/site-packages/lubluxodit-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/install.log'

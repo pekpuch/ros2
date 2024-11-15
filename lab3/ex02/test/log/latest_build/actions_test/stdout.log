@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/actions_test/actions_test.egg-info/PKG-INFO
+writing dependency_links to ../build/actions_test/actions_test.egg-info/dependency_links.txt
+writing entry points to ../build/actions_test/actions_test.egg-info/entry_points.txt
+writing requirements to ../build/actions_test/actions_test.egg-info/requires.txt
+writing top-level names to ../build/actions_test/actions_test.egg-info/top_level.txt
+reading manifest file '../build/actions_test/actions_test.egg-info/SOURCES.txt'
+writing manifest file '../build/actions_test/actions_test.egg-info/SOURCES.txt'
+running build
+running build_py
+copying actions_test/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/build/lib/actions_test
+running install
+running install_lib
+copying /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/build/lib/actions_test/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test
+byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test/action_turtle_server.py to action_turtle_server.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/actions_test/actions_test.egg-info to /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/actions_test
+Installing server script to /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/actions_test
+writing list of installed files to '/home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/install.log'

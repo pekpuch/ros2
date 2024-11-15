@@ -1,0 +1,25 @@
+[1.137s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex02/test/actions_test': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/actions_test build --build-base /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/build install --record /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/install.log --single-version-externally-managed install_data
+[1.592s] running egg_info
+[1.593s] writing ../build/actions_test/actions_test.egg-info/PKG-INFO
+[1.594s] writing dependency_links to ../build/actions_test/actions_test.egg-info/dependency_links.txt
+[1.594s] writing entry points to ../build/actions_test/actions_test.egg-info/entry_points.txt
+[1.594s] writing requirements to ../build/actions_test/actions_test.egg-info/requires.txt
+[1.595s] writing top-level names to ../build/actions_test/actions_test.egg-info/top_level.txt
+[1.598s] reading manifest file '../build/actions_test/actions_test.egg-info/SOURCES.txt'
+[1.600s] writing manifest file '../build/actions_test/actions_test.egg-info/SOURCES.txt'
+[1.600s] running build
+[1.600s] running build_py
+[1.600s] copying actions_test/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/build/lib/actions_test
+[1.601s] running install
+[1.602s] running install_lib
+[1.603s] copying /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/build/lib/actions_test/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test
+[1.604s] byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test/action_turtle_server.py to action_turtle_server.cpython-310.pyc
+[1.606s] running install_data
+[1.607s] running install_egg_info
+[1.610s] removing '/home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.611s] Copying ../build/actions_test/actions_test.egg-info to /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages/actions_test-0.0.0-py3.10.egg-info
+[1.612s] running install_scripts
+[1.649s] Installing client script to /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/actions_test
+[1.650s] Installing server script to /home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/actions_test
+[1.650s] writing list of installed files to '/home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/install.log'
+[1.693s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex02/test/actions_test' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex02/test/install/actions_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/actions_test build --build-base /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/build install --record /home/kirill/Desktop/robotics/lab3/ex02/test/build/actions_test/install.log --single-version-externally-managed install_data

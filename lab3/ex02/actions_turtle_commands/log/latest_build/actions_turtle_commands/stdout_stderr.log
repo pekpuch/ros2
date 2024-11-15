@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/actions_turtle_commands/actions_turtle_commands.egg-info
+writing ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/PKG-INFO
+writing dependency_links to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/dependency_links.txt
+writing entry points to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/entry_points.txt
+writing requirements to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/requires.txt
+writing top-level names to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/top_level.txt
+writing manifest file '../../build/actions_turtle_commands/actions_turtle_commands.egg-info/SOURCES.txt'
+reading manifest file '../../build/actions_turtle_commands/actions_turtle_commands.egg-info/SOURCES.txt'
+writing manifest file '../../build/actions_turtle_commands/actions_turtle_commands.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+copying actions_turtle_commands/action_turtle_client.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+copying actions_turtle_commands/__init__.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+copying actions_turtle_commands/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+running install
+running install_lib
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+copying /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands/action_turtle_client.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+copying /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands/__init__.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+copying /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands/action_turtle_client.py to action_turtle_client.cpython-310.pyc
+byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands/action_turtle_server.py to action_turtle_server.cpython-310.pyc
+running install_data
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index/resource_index
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index/resource_index/packages
+copying resource/actions_turtle_commands -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index/resource_index/packages
+creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/actions_turtle_commands
+copying package.xml -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/actions_turtle_commands
+running install_egg_info
+Copying ../../build/actions_turtle_commands/actions_turtle_commands.egg-info to /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/actions_turtle_commands
+Installing server script to /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/actions_turtle_commands
+writing list of installed files to '/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/install.log'

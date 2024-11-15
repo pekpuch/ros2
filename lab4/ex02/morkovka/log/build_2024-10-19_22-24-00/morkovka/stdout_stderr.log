@@ -1,0 +1,31 @@
+running egg_info
+creating build/morkovka/morkovka.egg-info
+writing build/morkovka/morkovka.egg-info/PKG-INFO
+writing dependency_links to build/morkovka/morkovka.egg-info/dependency_links.txt
+writing entry points to build/morkovka/morkovka.egg-info/entry_points.txt
+writing requirements to build/morkovka/morkovka.egg-info/requires.txt
+writing top-level names to build/morkovka/morkovka.egg-info/top_level.txt
+writing manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+reading manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+writing manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka
+copying morkovka/__init__.py -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka
+running install
+running install_lib
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka
+copying /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka/__init__.py -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka
+byte-compiling /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index/resource_index
+creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index/resource_index/packages
+copying resource/morkovka -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index/resource_index/packages
+copying package.xml -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/morkovka
+running install_egg_info
+Copying build/morkovka/morkovka.egg-info to /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log'

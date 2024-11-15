@@ -1,0 +1,437 @@
+[0.000000] (-) TimerEvent: {}
+[0.000634] (actions_help) JobQueued: {'identifier': 'actions_help', 'dependencies': OrderedDict()}
+[0.000728] (actions_help) JobStarted: {'identifier': 'actions_help'}
+[0.015965] (actions_help) JobProgress: {'identifier': 'actions_help', 'progress': 'cmake'}
+[0.017228] (actions_help) Command: {'cmd': ['/usr/bin/cmake', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/actions_help', '-DCMAKE_INSTALL_PREFIX=/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help'], 'cwd': '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'kirill'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1489'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/kirill/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/kirill'), ('OLDPWD', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install:/home/kirill/Desktop/robotics/lab3/ex01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kirill'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('LC_COLLATE', 'ru_RU.UTF-8'), ('PATH', '/opt/ros/humble/bin:/home/kirill/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_DATA_HOME', '/home/kirill/.local/share'), ('XDG_CONFIG_HOME', '/home/kirill/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/kirill/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXnJxi9Q/agent.1423'), ('AMENT_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('XDG_VTNR', '1'), ('PWD', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble')]), 'shell': False}
+[0.043056] (actions_help) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098386] (-) TimerEvent: {}
+[0.198777] (-) TimerEvent: {}
+[0.299286] (-) TimerEvent: {}
+[0.400362] (-) TimerEvent: {}
+[0.419251] (actions_help) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500678] (-) TimerEvent: {}
+[0.601593] (-) TimerEvent: {}
+[0.702552] (-) TimerEvent: {}
+[0.803558] (-) TimerEvent: {}
+[0.904469] (-) TimerEvent: {}
+[1.005341] (-) TimerEvent: {}
+[1.085298] (actions_help) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.105495] (-) TimerEvent: {}
+[1.140631] (actions_help) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.205937] (-) TimerEvent: {}
+[1.282956] (actions_help) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.306091] (-) TimerEvent: {}
+[1.406983] (-) TimerEvent: {}
+[1.487039] (actions_help) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.507183] (-) TimerEvent: {}
+[1.607993] (-) TimerEvent: {}
+[1.665984] (actions_help) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.708207] (-) TimerEvent: {}
+[1.809140] (-) TimerEvent: {}
+[1.910108] (-) TimerEvent: {}
+[2.011002] (-) TimerEvent: {}
+[2.075688] (actions_help) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.097824] (actions_help) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.111220] (-) TimerEvent: {}
+[2.212080] (-) TimerEvent: {}
+[2.312969] (-) TimerEvent: {}
+[2.413896] (-) TimerEvent: {}
+[2.514759] (-) TimerEvent: {}
+[2.615386] (-) TimerEvent: {}
+[2.716179] (-) TimerEvent: {}
+[2.738555] (actions_help) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.816387] (-) TimerEvent: {}
+[2.870512] (actions_help) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.916530] (-) TimerEvent: {}
+[2.981001] (actions_help) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.016770] (-) TimerEvent: {}
+[3.117622] (-) TimerEvent: {}
+[3.119279] (actions_help) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.217826] (-) TimerEvent: {}
+[3.318727] (-) TimerEvent: {}
+[3.419480] (-) TimerEvent: {}
+[3.456957] (actions_help) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.457330] (actions_help) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.519607] (-) TimerEvent: {}
+[3.620031] (-) TimerEvent: {}
+[3.631125] (actions_help) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.633969] (actions_help) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.720290] (-) TimerEvent: {}
+[3.821239] (-) TimerEvent: {}
+[3.922241] (-) TimerEvent: {}
+[4.009251] (actions_help) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.022371] (-) TimerEvent: {}
+[4.089589] (actions_help) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.122698] (-) TimerEvent: {}
+[4.223449] (-) TimerEvent: {}
+[4.323846] (-) TimerEvent: {}
+[4.424280] (-) TimerEvent: {}
+[4.524809] (-) TimerEvent: {}
+[4.625839] (-) TimerEvent: {}
+[4.726448] (-) TimerEvent: {}
+[4.826833] (-) TimerEvent: {}
+[4.927374] (-) TimerEvent: {}
+[4.983291] (actions_help) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.027667] (-) TimerEvent: {}
+[5.128510] (-) TimerEvent: {}
+[5.229285] (-) TimerEvent: {}
+[5.330056] (-) TimerEvent: {}
+[5.430578] (-) TimerEvent: {}
+[5.531273] (-) TimerEvent: {}
+[5.631850] (-) TimerEvent: {}
+[5.732773] (-) TimerEvent: {}
+[5.833639] (-) TimerEvent: {}
+[5.934367] (-) TimerEvent: {}
+[5.965541] (actions_help) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.034526] (-) TimerEvent: {}
+[6.135145] (-) TimerEvent: {}
+[6.235878] (-) TimerEvent: {}
+[6.314282] (actions_help) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.336199] (-) TimerEvent: {}
+[6.396657] (actions_help) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.436497] (-) TimerEvent: {}
+[6.437463] (actions_help) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.536727] (-) TimerEvent: {}
+[6.602373] (actions_help) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.603541] (actions_help) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.604116] (actions_help) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.604591] (actions_help) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.636838] (-) TimerEvent: {}
+[6.651407] (actions_help) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.737066] (-) TimerEvent: {}
+[6.837859] (-) TimerEvent: {}
+[6.845650] (actions_help) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.938148] (-) TimerEvent: {}
+[6.975966] (actions_help) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.982729] (actions_help) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.997316] (actions_help) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.038363] (-) TimerEvent: {}
+[7.109708] (actions_help) StdoutLine: {'line': b'-- Generating done\n'}
+[7.115780] (actions_help) StdoutLine: {'line': b'-- Build files have been written to: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help\n'}
+[7.133219] (actions_help) CommandEnded: {'returncode': 0}
+[7.136223] (actions_help) JobProgress: {'identifier': 'actions_help', 'progress': 'build'}
+[7.141787] (actions_help) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help', '--', '-j4', '-l4'], 'cwd': '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'kirill'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1489'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/kirill/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/kirill'), ('OLDPWD', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install:/home/kirill/Desktop/robotics/lab3/ex01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kirill'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('LC_COLLATE', 'ru_RU.UTF-8'), ('PATH', '/opt/ros/humble/bin:/home/kirill/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_DATA_HOME', '/home/kirill/.local/share'), ('XDG_CONFIG_HOME', '/home/kirill/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/kirill/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXnJxi9Q/agent.1423'), ('AMENT_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('XDG_VTNR', '1'), ('PWD', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble')]), 'shell': False}
+[7.143337] (-) TimerEvent: {}
+[7.225376] (actions_help) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.243493] (-) TimerEvent: {}
+[7.249815] (actions_help) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.254924] (actions_help) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_actions_help\n'}
+[7.343615] (-) TimerEvent: {}
+[7.444022] (-) TimerEvent: {}
+[7.544437] (-) TimerEvent: {}
+[7.644857] (-) TimerEvent: {}
+[7.745262] (-) TimerEvent: {}
+[7.845681] (-) TimerEvent: {}
+[7.946110] (-) TimerEvent: {}
+[8.036372] (actions_help) StdoutLine: {'line': b'running egg_info\n'}
+[8.038193] (actions_help) StdoutLine: {'line': b'creating actions_help.egg-info\n'}
+[8.038734] (actions_help) StdoutLine: {'line': b'writing actions_help.egg-info/PKG-INFO\n'}
+[8.039523] (actions_help) StdoutLine: {'line': b'writing dependency_links to actions_help.egg-info/dependency_links.txt\n'}
+[8.040054] (actions_help) StdoutLine: {'line': b'writing top-level names to actions_help.egg-info/top_level.txt\n'}
+[8.040723] (actions_help) StdoutLine: {'line': b"writing manifest file 'actions_help.egg-info/SOURCES.txt'\n"}
+[8.046235] (-) TimerEvent: {}
+[8.047053] (actions_help) StdoutLine: {'line': b"reading manifest file 'actions_help.egg-info/SOURCES.txt'\n"}
+[8.048663] (actions_help) StdoutLine: {'line': b"writing manifest file 'actions_help.egg-info/SOURCES.txt'\n"}
+[8.115599] (actions_help) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_actions_help_egg\n'}
+[8.146386] (-) TimerEvent: {}
+[8.246862] (-) TimerEvent: {}
+[8.347332] (-) TimerEvent: {}
+[8.378343] (actions_help) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/actions_help__rosidl_generator_c.dir/rosidl_generator_c/actions_help/action/detail/message_turtle_commands__functions.c.o\x1b[0m\n'}
+[8.447647] (-) TimerEvent: {}
+[8.548371] (-) TimerEvent: {}
+[8.644846] (actions_help) StdoutLine: {'line': b'[  9%] Built target actions_help__cpp\n'}
+[8.648526] (-) TimerEvent: {}
+[8.664507] (actions_help) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.666623] (actions_help) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.669582] (actions_help) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.751518] (-) TimerEvent: {}
+[8.851972] (-) TimerEvent: {}
+[8.952609] (-) TimerEvent: {}
+[9.053198] (-) TimerEvent: {}
+[9.153643] (-) TimerEvent: {}
+[9.199508] (actions_help) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libactions_help__rosidl_generator_c.so\x1b[0m\n'}
+[9.253771] (-) TimerEvent: {}
+[9.354261] (-) TimerEvent: {}
+[9.367532] (actions_help) StdoutLine: {'line': b'[ 22%] Built target actions_help__rosidl_generator_c\n'}
+[9.396046] (actions_help) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.454384] (-) TimerEvent: {}
+[9.554865] (-) TimerEvent: {}
+[9.655517] (-) TimerEvent: {}
+[9.757493] (-) TimerEvent: {}
+[9.857945] (-) TimerEvent: {}
+[9.958442] (-) TimerEvent: {}
+[10.058913] (-) TimerEvent: {}
+[10.061173] (actions_help) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/actions_help__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/actions_help/action/message_turtle_commands__type_support.cpp.o\x1b[0m\n'}
+[10.159040] (-) TimerEvent: {}
+[10.259495] (-) TimerEvent: {}
+[10.272986] (actions_help) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/actions_help__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/actions_help/action/detail/message_turtle_commands__type_support.cpp.o\x1b[0m\n'}
+[10.345702] (actions_help) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/actions_help__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/actions_help/action/detail/dds_fastrtps/message_turtle_commands__type_support.cpp.o\x1b[0m\n'}
+[10.359641] (-) TimerEvent: {}
+[10.460197] (-) TimerEvent: {}
+[10.561005] (-) TimerEvent: {}
+[10.661399] (-) TimerEvent: {}
+[10.761765] (-) TimerEvent: {}
+[10.862128] (-) TimerEvent: {}
+[10.962599] (-) TimerEvent: {}
+[11.005998] (actions_help) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/actions_help__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/actions_help/action/detail/message_turtle_commands__type_support_c.cpp.o\x1b[0m\n'}
+[11.062891] (-) TimerEvent: {}
+[11.163780] (-) TimerEvent: {}
+[11.264590] (-) TimerEvent: {}
+[11.365333] (-) TimerEvent: {}
+[11.466272] (-) TimerEvent: {}
+[11.567369] (-) TimerEvent: {}
+[11.668517] (-) TimerEvent: {}
+[11.769656] (-) TimerEvent: {}
+[11.870684] (-) TimerEvent: {}
+[11.971633] (-) TimerEvent: {}
+[12.072612] (-) TimerEvent: {}
+[12.173504] (-) TimerEvent: {}
+[12.274552] (-) TimerEvent: {}
+[12.375668] (-) TimerEvent: {}
+[12.476679] (-) TimerEvent: {}
+[12.577682] (-) TimerEvent: {}
+[12.678740] (-) TimerEvent: {}
+[12.779564] (-) TimerEvent: {}
+[12.880484] (-) TimerEvent: {}
+[12.981515] (-) TimerEvent: {}
+[13.082284] (-) TimerEvent: {}
+[13.183513] (-) TimerEvent: {}
+[13.283985] (-) TimerEvent: {}
+[13.386518] (-) TimerEvent: {}
+[13.486980] (-) TimerEvent: {}
+[13.587505] (-) TimerEvent: {}
+[13.687996] (-) TimerEvent: {}
+[13.788499] (-) TimerEvent: {}
+[13.891526] (-) TimerEvent: {}
+[13.992020] (-) TimerEvent: {}
+[14.092512] (-) TimerEvent: {}
+[14.192985] (-) TimerEvent: {}
+[14.223497] (actions_help) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libactions_help__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.293129] (-) TimerEvent: {}
+[14.336523] (actions_help) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libactions_help__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.393279] (-) TimerEvent: {}
+[14.465526] (actions_help) StdoutLine: {'line': b'[ 45%] Built target actions_help__rosidl_typesupport_cpp\n'}
+[14.473114] (actions_help) StdoutLine: {'line': b'[ 45%] Built target actions_help__rosidl_typesupport_fastrtps_c\n'}
+[14.491822] (actions_help) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.493767] (-) TimerEvent: {}
+[14.499167] (actions_help) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.567992] (actions_help) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libactions_help__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.593899] (-) TimerEvent: {}
+[14.694408] (-) TimerEvent: {}
+[14.785873] (actions_help) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libactions_help__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.786451] (actions_help) StdoutLine: {'line': b'[ 58%] Built target actions_help__rosidl_typesupport_fastrtps_cpp\n'}
+[14.794554] (-) TimerEvent: {}
+[14.895019] (-) TimerEvent: {}
+[14.995522] (-) TimerEvent: {}
+[14.999989] (actions_help) StdoutLine: {'line': b'[ 58%] Built target actions_help__rosidl_typesupport_introspection_cpp\n'}
+[15.095654] (-) TimerEvent: {}
+[15.196313] (-) TimerEvent: {}
+[15.296770] (-) TimerEvent: {}
+[15.397340] (-) TimerEvent: {}
+[15.473942] (actions_help) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/actions_help__rosidl_typesupport_c.dir/rosidl_typesupport_c/actions_help/action/message_turtle_commands__type_support.cpp.o\x1b[0m\n'}
+[15.497475] (-) TimerEvent: {}
+[15.597875] (-) TimerEvent: {}
+[15.601604] (actions_help) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/actions_help__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/actions_help/action/detail/message_turtle_commands__type_support.c.o\x1b[0m\n'}
+[15.646029] (actions_help) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libactions_help__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.698031] (-) TimerEvent: {}
+[15.734836] (actions_help) StdoutLine: {'line': b'[ 67%] Built target actions_help__rosidl_typesupport_c\n'}
+[15.736181] (actions_help) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libactions_help__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.793615] (actions_help) StdoutLine: {'line': b'[ 70%] Built target actions_help__rosidl_typesupport_introspection_c\n'}
+[15.798273] (-) TimerEvent: {}
+[15.837539] (actions_help) StdoutLine: {'line': b'[ 70%] Built target actions_help\n'}
+[15.873073] (actions_help) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.898397] (-) TimerEvent: {}
+[15.998817] (-) TimerEvent: {}
+[16.099193] (-) TimerEvent: {}
+[16.199580] (-) TimerEvent: {}
+[16.299953] (-) TimerEvent: {}
+[16.400330] (-) TimerEvent: {}
+[16.500708] (-) TimerEvent: {}
+[16.601087] (-) TimerEvent: {}
+[16.701464] (-) TimerEvent: {}
+[16.801832] (-) TimerEvent: {}
+[16.902202] (-) TimerEvent: {}
+[17.002610] (-) TimerEvent: {}
+[17.102979] (-) TimerEvent: {}
+[17.203347] (-) TimerEvent: {}
+[17.303746] (-) TimerEvent: {}
+[17.404232] (-) TimerEvent: {}
+[17.505011] (-) TimerEvent: {}
+[17.605503] (-) TimerEvent: {}
+[17.705931] (-) TimerEvent: {}
+[17.777507] (actions_help) StdoutLine: {'line': b'[ 74%] Built target actions_help__py\n'}
+[17.806127] (-) TimerEvent: {}
+[17.822000] (actions_help) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/actions_help__rosidl_generator_py.dir/rosidl_generator_py/actions_help/action/_message_turtle_commands_s.c.o\x1b[0m\n'}
+[17.906383] (-) TimerEvent: {}
+[18.007029] (-) TimerEvent: {}
+[18.107904] (-) TimerEvent: {}
+[18.208696] (-) TimerEvent: {}
+[18.309363] (-) TimerEvent: {}
+[18.410297] (-) TimerEvent: {}
+[18.511231] (-) TimerEvent: {}
+[18.612320] (-) TimerEvent: {}
+[18.713197] (-) TimerEvent: {}
+[18.813731] (-) TimerEvent: {}
+[18.861871] (actions_help) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_help/libactions_help__rosidl_generator_py.so\x1b[0m\n'}
+[18.913931] (-) TimerEvent: {}
+[18.985183] (actions_help) StdoutLine: {'line': b'[ 80%] Built target actions_help__rosidl_generator_py\n'}
+[19.014059] (-) TimerEvent: {}
+[19.022189] (actions_help) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/actions_help__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/actions_help/_actions_help_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.030247] (actions_help) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/actions_help__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/actions_help/_actions_help_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.031907] (actions_help) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/actions_help__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/actions_help/_actions_help_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.116523] (-) TimerEvent: {}
+[19.216995] (-) TimerEvent: {}
+[19.306647] (actions_help) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_help/actions_help_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.317135] (-) TimerEvent: {}
+[19.353774] (actions_help) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_help/actions_help_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.374481] (actions_help) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/actions_help/actions_help_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.401774] (actions_help) StdoutLine: {'line': b'[100%] Built target actions_help__rosidl_typesupport_c__pyext\n'}
+[19.417277] (-) TimerEvent: {}
+[19.441939] (actions_help) StdoutLine: {'line': b'[100%] Built target actions_help__rosidl_typesupport_introspection_c__pyext\n'}
+[19.482295] (actions_help) StdoutLine: {'line': b'[100%] Built target actions_help__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.517276] (actions_help) CommandEnded: {'returncode': 0}
+[19.518789] (-) TimerEvent: {}
+[19.619268] (-) TimerEvent: {}
+[19.646524] (actions_help) JobProgress: {'identifier': 'actions_help', 'progress': 'install'}
+[19.663837] (actions_help) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help'], 'cwd': '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'kirill'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1489'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/kirill/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/kirill'), ('OLDPWD', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install:/home/kirill/Desktop/robotics/lab3/ex01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kirill'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('LC_COLLATE', 'ru_RU.UTF-8'), ('PATH', '/opt/ros/humble/bin:/home/kirill/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_DATA_HOME', '/home/kirill/.local/share'), ('XDG_CONFIG_HOME', '/home/kirill/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/kirill/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXnJxi9Q/agent.1423'), ('AMENT_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('XDG_VTNR', '1'), ('PWD', '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/build/actions_help'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kirill/Desktop/robotics/help/install/tutorial_interfaces:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble')]), 'shell': False}
+[19.682827] (actions_help) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.683312] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/ament_index/resource_index/rosidl_interfaces/actions_help\n'}
+[19.683781] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help\n'}
+[19.684200] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg\n'}
+[19.684589] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.684978] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action\n'}
+[19.685339] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail\n'}
+[19.685656] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__struct.h\n'}
+[19.686002] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__type_support.h\n'}
+[19.686275] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__functions.h\n'}
+[19.686604] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__functions.c\n'}
+[19.686950] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/message_turtle_commands.h\n'}
+[19.687457] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/library_path.sh\n'}
+[19.687865] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/library_path.dsv\n'}
+[19.688380] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_generator_c.so\n'}
+[19.689255] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_generator_c.so" to ""\n'}
+[19.689630] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help\n'}
+[19.689947] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg\n'}
+[19.690312] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.690599] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action\n'}
+[19.690909] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail\n'}
+[19.691167] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[19.691448] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_fastrtps_c.so\n'}
+[19.691921] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.692270] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help\n'}
+[19.692587] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action\n'}
+[19.692885] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail\n'}
+[19.693142] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__struct.hpp\n'}
+[19.693458] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__builder.hpp\n'}
+[19.693768] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__traits.hpp\n'}
+[19.694017] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/message_turtle_commands.hpp\n'}
+[19.694367] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help\n'}
+[19.694739] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg\n'}
+[19.695026] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.695313] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action\n'}
+[19.695590] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail\n'}
+[19.695884] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.696126] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/dds_fastrtps\n'}
+[19.696380] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.696797] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.697122] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help\n'}
+[19.697400] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg\n'}
+[19.697760] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.698001] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action\n'}
+[19.698290] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail\n'}
+[19.698551] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__rosidl_typesupport_introspection_c.h\n'}
+[19.698816] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__type_support.c\n'}
+[19.699105] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_introspection_c.so\n'}
+[19.699594] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.699899] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_c.so\n'}
+[19.700596] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_c.so" to ""\n'}
+[19.700968] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help\n'}
+[19.701251] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action\n'}
+[19.701554] (actions_help) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail\n'}
+[19.701792] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.702060] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/include/actions_help/actions_help/action/detail/message_turtle_commands__type_support.cpp\n'}
+[19.702294] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_introspection_cpp.so\n'}
+[19.702908] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.703188] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_cpp.so\n'}
+[19.703854] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_typesupport_cpp.so" to ""\n'}
+[19.704143] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/pythonpath.sh\n'}
+[19.704402] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/pythonpath.dsv\n'}
+[19.704738] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help-0.0.0-py3.10.egg-info\n'}
+[19.705128] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[19.705436] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[19.705742] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[19.706028] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[19.706391] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help\n'}
+[19.706685] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.707024] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/_actions_help_s.ep.rosidl_typesupport_c.c\n'}
+[19.707469] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/libactions_help__rosidl_generator_py.so\n'}
+[19.707769] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.708008] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/_actions_help_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.708264] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action\n'}
+[19.708493] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action/_message_turtle_commands.py\n'}
+[19.708756] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action/__init__.py\n'}
+[19.708972] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action/_message_turtle_commands_s.c\n'}
+[19.709205] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/__init__.py\n'}
+[19.709395] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.709682] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/_actions_help_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.719384] (-) TimerEvent: {}
+[19.818632] (actions_help) StdoutLine: {'line': b"Listing '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help'...\n"}
+[19.819025] (actions_help) StdoutLine: {'line': b"Compiling '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/__init__.py'...\n"}
+[19.819286] (actions_help) StdoutLine: {'line': b"Listing '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action'...\n"}
+[19.819610] (-) TimerEvent: {}
+[19.819859] (actions_help) StdoutLine: {'line': b"Compiling '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action/__init__.py'...\n"}
+[19.820128] (actions_help) StdoutLine: {'line': b"Compiling '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/action/_message_turtle_commands.py'...\n"}
+[19.828019] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.828858] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.829313] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.830242] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.830923] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.832110] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/local/lib/python3.10/dist-packages/actions_help/actions_help_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[19.832504] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_generator_py.so\n'}
+[19.833573] (actions_help) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/lib/libactions_help__rosidl_generator_py.so" to ""\n'}
+[19.833999] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/action/MessageTurtleCommands.idl\n'}
+[19.834313] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/action/MessageTurtleCommands.action\n'}
+[19.834807] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/ament_index/resource_index/package_run_dependencies/actions_help\n'}
+[19.835198] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/ament_index/resource_index/parent_prefix_path/actions_help\n'}
+[19.835516] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/ament_prefix_path.sh\n'}
+[19.835955] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/ament_prefix_path.dsv\n'}
+[19.836270] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/path.sh\n'}
+[19.836667] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/environment/path.dsv\n'}
+[19.837129] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/local_setup.bash\n'}
+[19.837622] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/local_setup.sh\n'}
+[19.838106] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/local_setup.zsh\n'}
+[19.838541] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/local_setup.dsv\n'}
+[19.839071] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/package.dsv\n'}
+[19.839653] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/ament_index/resource_index/packages/actions_help\n'}
+[19.840260] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_generator_cExport.cmake\n'}
+[19.840755] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.841299] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.841821] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.842333] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_generator_cppExport.cmake\n'}
+[19.842864] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.843359] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.843884] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.844373] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.844904] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_cExport.cmake\n'}
+[19.845383] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.845895] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.846368] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.846892] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_cppExport.cmake\n'}
+[19.847371] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_help__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.847885] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_generator_pyExport.cmake\n'}
+[19.848364] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/export_actions_help__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.848847] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/rosidl_cmake-extras.cmake\n'}
+[19.849318] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.849833] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.850292] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.850779] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.851245] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.851727] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.852187] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_helpConfig.cmake\n'}
+[19.852611] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/cmake/actions_helpConfig-version.cmake\n'}
+[19.853059] (actions_help) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/install/actions_help/share/actions_help/package.xml\n'}
+[19.858432] (actions_help) CommandEnded: {'returncode': 0}
+[19.919765] (-) TimerEvent: {}
+[20.020453] (-) TimerEvent: {}
+[20.048694] (actions_help) JobEnded: {'identifier': 'actions_help', 'rc': 0}
+[20.051283] (-) EventReactorShutdown: {}

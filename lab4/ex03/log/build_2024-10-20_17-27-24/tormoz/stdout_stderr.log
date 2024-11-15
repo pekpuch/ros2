@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/tormoz/tormoz.egg-info
+writing ../build/tormoz/tormoz.egg-info/PKG-INFO
+writing dependency_links to ../build/tormoz/tormoz.egg-info/dependency_links.txt
+writing entry points to ../build/tormoz/tormoz.egg-info/entry_points.txt
+writing requirements to ../build/tormoz/tormoz.egg-info/requires.txt
+writing top-level names to ../build/tormoz/tormoz.egg-info/top_level.txt
+writing manifest file '../build/tormoz/tormoz.egg-info/SOURCES.txt'
+reading manifest file '../build/tormoz/tormoz.egg-info/SOURCES.txt'
+writing manifest file '../build/tormoz/tormoz.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build
+creating /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build/lib
+creating /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build/lib/tormoz
+copying tormoz/__init__.py -> /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build/lib/tormoz
+running install
+running install_lib
+creating /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages/tormoz
+copying /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build/lib/tormoz/__init__.py -> /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages/tormoz
+byte-compiling /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages/tormoz/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/ament_index
+creating /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/ament_index/resource_index
+creating /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/ament_index/resource_index/packages
+copying resource/tormoz -> /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/ament_index/resource_index/packages
+copying package.xml -> /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz
+running install_egg_info
+Copying ../build/tormoz/tormoz.egg-info to /home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages/tormoz-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/install.log'

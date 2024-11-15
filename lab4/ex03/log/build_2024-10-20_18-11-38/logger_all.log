@@ -1,0 +1,126 @@
+[18.018s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[18.018s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71bd6b5ddc90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71bd6b6e1c00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71bd6b6e1c00>>, mixin_verb=('build',))
+[24.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[24.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[24.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[24.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[24.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[24.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[24.373s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kirill/Desktop/robotics/lab4/ex03'
+[24.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[24.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[24.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[24.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[24.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[24.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[24.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[24.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[24.375s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[24.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[24.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[24.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[24.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[24.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[24.656s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[24.656s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[24.656s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[24.657s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[24.657s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[24.657s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[24.658s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[24.658s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[24.658s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[24.659s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[24.659s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[24.659s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[24.659s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[24.659s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[24.660s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[24.660s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[24.660s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[24.660s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[24.660s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[24.661s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[24.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[24.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[24.662s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[24.662s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extensions ['ignore', 'ignore_ament_install']
+[24.662s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extension 'ignore'
+[24.662s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extension 'ignore_ament_install'
+[24.663s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extensions ['colcon_pkg']
+[24.663s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extension 'colcon_pkg'
+[24.663s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extensions ['colcon_meta']
+[24.663s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extension 'colcon_meta'
+[24.663s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extensions ['ros']
+[24.663s] Level 1:colcon.colcon_core.package_identification:_identify(tormoz) by extension 'ros'
+[24.803s] DEBUG:colcon.colcon_core.package_identification:Package 'tormoz' with type 'ros.ament_python' and name 'tormoz'
+[24.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[24.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[24.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[24.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[24.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[25.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[25.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[25.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[25.389s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'cmake_args' from command line to 'None'
+[25.389s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'cmake_target' from command line to 'None'
+[25.389s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[25.389s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'cmake_clean_cache' from command line to 'False'
+[25.390s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'cmake_clean_first' from command line to 'False'
+[25.390s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'cmake_force_configure' from command line to 'False'
+[25.390s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'ament_cmake_args' from command line to 'None'
+[25.390s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'catkin_cmake_args' from command line to 'None'
+[25.390s] Level 5:colcon.colcon_core.verb:set package 'tormoz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[25.390s] DEBUG:colcon.colcon_core.verb:Building package 'tormoz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/Desktop/robotics/lab4/ex03/build/tormoz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz', 'merge_install': False, 'path': '/home/kirill/Desktop/robotics/lab4/ex03/tormoz', 'symlink_install': False, 'test_result_base': None}
+[25.391s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[25.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[25.397s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kirill/Desktop/robotics/lab4/ex03/tormoz' with build type 'ament_python'
+[25.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('tormoz', 'ament_prefix_path')
+[25.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[25.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/hook/ament_prefix_path.ps1'
+[25.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/hook/ament_prefix_path.dsv'
+[25.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/hook/ament_prefix_path.sh'
+[25.658s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.332s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kirill/Desktop/robotics/lab4/ex03/tormoz'
+[26.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/Desktop/robotics/lab4/ex03/tormoz': PYTHONPATH=/home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tormoz build --build-base /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build install --record /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/install.log --single-version-externally-managed install_data
+[29.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/Desktop/robotics/lab4/ex03/tormoz' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tormoz build --build-base /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/build install --record /home/kirill/Desktop/robotics/lab4/ex03/build/tormoz/install.log --single-version-externally-managed install_data
+[29.083s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz' for CMake module files
+[29.086s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz' for CMake config files
+[29.088s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib'
+[29.089s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/bin'
+[29.089s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/pkgconfig/tormoz.pc'
+[29.090s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/lib/python3.10/site-packages'
+[29.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('tormoz', 'pythonpath')
+[29.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/hook/pythonpath.ps1'
+[29.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/hook/pythonpath.dsv'
+[29.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/hook/pythonpath.sh'
+[29.095s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/bin'
+[29.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tormoz)
+[29.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/package.ps1'
+[29.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/package.dsv'
+[29.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/package.sh'
+[29.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/package.bash'
+[29.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/tormoz/package.zsh'
+[29.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/Desktop/robotics/lab4/ex03/install/tormoz/share/colcon-core/packages/tormoz)
+[29.166s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.168s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[29.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.214s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.249s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/Desktop/robotics/lab4/ex03/install/local_setup.ps1'
+[29.254s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kirill/Desktop/robotics/lab4/ex03/install/_local_setup_util_ps1.py'
+[29.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/Desktop/robotics/lab4/ex03/install/setup.ps1'
+[29.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/Desktop/robotics/lab4/ex03/install/local_setup.sh'
+[29.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kirill/Desktop/robotics/lab4/ex03/install/_local_setup_util_sh.py'
+[29.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/Desktop/robotics/lab4/ex03/install/setup.sh'
+[29.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/Desktop/robotics/lab4/ex03/install/local_setup.bash'
+[29.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/Desktop/robotics/lab4/ex03/install/setup.bash'
+[29.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/Desktop/robotics/lab4/ex03/install/local_setup.zsh'
+[29.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/Desktop/robotics/lab4/ex03/install/setup.zsh'

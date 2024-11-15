@@ -1,0 +1,29 @@
+[1.696s] Invoking command in '/home/kirill/Desktop/robotics/lab5/ex05/unique_move': PYTHONPATH=/home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/unique_move build --build-base /home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/build install --record /home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/install.log --single-version-externally-managed install_data
+[2.321s] running egg_info
+[2.325s] writing ../build/unique_move/unique_move.egg-info/PKG-INFO
+[2.326s] writing dependency_links to ../build/unique_move/unique_move.egg-info/dependency_links.txt
+[2.326s] writing entry points to ../build/unique_move/unique_move.egg-info/entry_points.txt
+[2.327s] writing requirements to ../build/unique_move/unique_move.egg-info/requires.txt
+[2.327s] writing top-level names to ../build/unique_move/unique_move.egg-info/top_level.txt
+[2.334s] reading manifest file '../build/unique_move/unique_move.egg-info/SOURCES.txt'
+[2.336s] writing manifest file '../build/unique_move/unique_move.egg-info/SOURCES.txt'
+[2.336s] running build
+[2.336s] running build_py
+[2.337s] copying unique_move/move.py -> /home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/build/lib/unique_move
+[2.337s] running install
+[2.339s] running install_lib
+[2.342s] copying /home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/build/lib/unique_move/move.py -> /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/python3.10/site-packages/unique_move
+[2.343s] byte-compiling /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/python3.10/site-packages/unique_move/move.py to move.cpython-310.pyc
+[2.345s] running install_data
+[2.346s] copying package.xml -> /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/share/unique_move
+[2.346s] copying launch/launch.py -> /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/share/unique_move/launch
+[2.347s] copying description/robot.urdf.xacro -> /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/share/unique_move/description
+[2.347s] copying description/gazebo.urdf.xacro -> /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/share/unique_move/description
+[2.347s] copying config/robot_bridge.yaml -> /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/share/unique_move/config
+[2.348s] running install_egg_info
+[2.354s] removing '/home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/python3.10/site-packages/unique_move-0.0.0-py3.10.egg-info' (and everything under it)
+[2.355s] Copying ../build/unique_move/unique_move.egg-info to /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/python3.10/site-packages/unique_move-0.0.0-py3.10.egg-info
+[2.359s] running install_scripts
+[2.433s] Installing move script to /home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/unique_move
+[2.436s] writing list of installed files to '/home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/install.log'
+[2.506s] Invoked command in '/home/kirill/Desktop/robotics/lab5/ex05/unique_move' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab5/ex05/install/unique_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/unique_move build --build-base /home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/build install --record /home/kirill/Desktop/robotics/lab5/ex05/build/unique_move/install.log --single-version-externally-managed install_data

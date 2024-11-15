@@ -1,0 +1,42 @@
+[0.111s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/actions_help -DCMAKE_INSTALL_PREFIX=/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help
+[2.416s] -- The C compiler identification is GNU 11.4.0
+[3.695s] -- The CXX compiler identification is GNU 11.4.0
+[3.801s] -- Detecting C compiler ABI info
+[4.248s] -- Detecting C compiler ABI info - done
+[4.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.265s] -- Detecting C compile features
+[4.294s] -- Detecting C compile features - done
+[4.337s] -- Detecting CXX compiler ABI info
+[4.563s] -- Detecting CXX compiler ABI info - done
+[4.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.587s] -- Detecting CXX compile features
+[4.588s] -- Detecting CXX compile features - done
+[4.637s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.135s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.590s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.929s] -- Added test 'lint_cmake' to check CMake code style
+[5.936s] -- Added test 'xmllint' to check XML markup files
+[5.943s] -- Configuring done
+[5.958s] -- Generating done
+[5.963s] -- Build files have been written to: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help
+[5.977s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/actions_help -DCMAKE_INSTALL_PREFIX=/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help
+[5.985s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --build /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help -- -j4 -l4
+[6.059s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --build /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help -- -j4 -l4
+[6.120s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --install /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help
+[6.132s] -- Install configuration: ""
+[6.132s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/ament_index/resource_index/package_run_dependencies/actions_help
+[6.133s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/ament_index/resource_index/parent_prefix_path/actions_help
+[6.133s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/ament_prefix_path.sh
+[6.134s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/ament_prefix_path.dsv
+[6.134s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/path.sh
+[6.134s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/path.dsv
+[6.135s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.bash
+[6.135s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.sh
+[6.135s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.zsh
+[6.136s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.dsv
+[6.136s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/package.dsv
+[6.137s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/ament_index/resource_index/packages/actions_help
+[6.137s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/cmake/actions_helpConfig.cmake
+[6.137s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/cmake/actions_helpConfig-version.cmake
+[6.138s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/package.xml
+[6.143s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --install /home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/build/actions_help

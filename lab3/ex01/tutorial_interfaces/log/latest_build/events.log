@@ -1,0 +1,411 @@
+[0.000000] (-) TimerEvent: {}
+[0.001328] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001519] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.016585] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.016715] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces'], 'cwd': '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'kirill'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1673'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/kirill/.cache'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/kirill'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kirill/Desktop/robotics/lab3/ex01'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kirill'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('LC_COLLATE', 'ru_RU.UTF-8'), ('PATH', '/opt/ros/humble/bin:/home/kirill/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_DATA_HOME', '/home/kirill/.local/share'), ('XDG_CONFIG_HOME', '/home/kirill/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/kirill/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-86368d0bd9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb77BQo/agent.1621'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099447] (-) TimerEvent: {}
+[0.125741] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199579] (-) TimerEvent: {}
+[0.242671] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.257381] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299709] (-) TimerEvent: {}
+[0.371537] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.387531] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.388010] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.388931] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.394882] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399811] (-) TimerEvent: {}
+[0.500229] (-) TimerEvent: {}
+[0.538226] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.554696] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.555189] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.556176] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.560131] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600356] (-) TimerEvent: {}
+[0.700770] (-) TimerEvent: {}
+[0.801170] (-) TimerEvent: {}
+[0.846055] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901337] (-) TimerEvent: {}
+[1.001793] (-) TimerEvent: {}
+[1.075874] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.093130] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102036] (-) TimerEvent: {}
+[1.125001] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202176] (-) TimerEvent: {}
+[1.210324] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.290345] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.302316] (-) TimerEvent: {}
+[1.402773] (-) TimerEvent: {}
+[1.503390] (-) TimerEvent: {}
+[1.604291] (-) TimerEvent: {}
+[1.705005] (-) TimerEvent: {}
+[1.805486] (-) TimerEvent: {}
+[1.905900] (-) TimerEvent: {}
+[2.006350] (-) TimerEvent: {}
+[2.106854] (-) TimerEvent: {}
+[2.190923] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.207185] (-) TimerEvent: {}
+[2.307931] (-) TimerEvent: {}
+[2.408495] (-) TimerEvent: {}
+[2.509441] (-) TimerEvent: {}
+[2.610203] (-) TimerEvent: {}
+[2.710580] (-) TimerEvent: {}
+[2.785146] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.810813] (-) TimerEvent: {}
+[2.911508] (-) TimerEvent: {}
+[3.012136] (-) TimerEvent: {}
+[3.112920] (-) TimerEvent: {}
+[3.213330] (-) TimerEvent: {}
+[3.313934] (-) TimerEvent: {}
+[3.414847] (-) TimerEvent: {}
+[3.462030] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.515263] (-) TimerEvent: {}
+[3.615991] (-) TimerEvent: {}
+[3.631783] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.677737] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.716153] (-) TimerEvent: {}
+[3.816775] (-) TimerEvent: {}
+[3.876793] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.877773] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.878269] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.878782] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.916876] (-) TimerEvent: {}
+[3.931261] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.017039] (-) TimerEvent: {}
+[4.117557] (-) TimerEvent: {}
+[4.199067] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.203005] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp>;/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c;/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_py\n'}
+[4.203424] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.217794] (-) TimerEvent: {}
+[4.254151] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.318164] (-) TimerEvent: {}
+[4.348914] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.358274] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.401657] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.402298] (tutorial_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.418271] (-) TimerEvent: {}
+[4.418952] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.518583] (-) TimerEvent: {}
+[4.569769] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.618684] (-) TimerEvent: {}
+[4.664052] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.672800] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces\n'}
+[4.694217] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.695344] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[4.695423] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'kirill'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1673'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/kirill/.cache'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/kirill'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kirill/Desktop/robotics/lab3/ex01'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kirill'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('LC_COLLATE', 'ru_RU.UTF-8'), ('PATH', '/opt/ros/humble/bin:/home/kirill/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_DATA_HOME', '/home/kirill/.local/share'), ('XDG_CONFIG_HOME', '/home/kirill/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/kirill/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-86368d0bd9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb77BQo/agent.1621'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.718816] (-) TimerEvent: {}
+[4.800454] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.819394] (-) TimerEvent: {}
+[4.824205] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.850834] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[4.919534] (-) TimerEvent: {}
+[5.019976] (-) TimerEvent: {}
+[5.121039] (-) TimerEvent: {}
+[5.221484] (-) TimerEvent: {}
+[5.324066] (-) TimerEvent: {}
+[5.424476] (-) TimerEvent: {}
+[5.525282] (-) TimerEvent: {}
+[5.628162] (-) TimerEvent: {}
+[5.659240] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.659997] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[5.660664] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.661846] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.663792] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.664268] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.668615] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.670421] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.717589] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/full_name__functions.c.o\x1b[0m\n'}
+[5.728285] (-) TimerEvent: {}
+[5.735486] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.821209] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] Built target tutorial_interfaces__cpp\n'}
+[5.828457] (-) TimerEvent: {}
+[5.844399] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.850334] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.856022] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.928574] (-) TimerEvent: {}
+[6.029022] (-) TimerEvent: {}
+[6.132152] (-) TimerEvent: {}
+[6.235148] (-) TimerEvent: {}
+[6.335868] (-) TimerEvent: {}
+[6.439233] (-) TimerEvent: {}
+[6.502057] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.539346] (-) TimerEvent: {}
+[6.618157] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.637190] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.639700] (-) TimerEvent: {}
+[6.663542] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/full_name__type_support.cpp.o\x1b[0m\n'}
+[6.740216] (-) TimerEvent: {}
+[6.749537] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/full_name__type_support.cpp.o\x1b[0m\n'}
+[6.821367] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/full_name__type_support.cpp.o\x1b[0m\n'}
+[6.840313] (-) TimerEvent: {}
+[6.940659] (-) TimerEvent: {}
+[7.041036] (-) TimerEvent: {}
+[7.141640] (-) TimerEvent: {}
+[7.242531] (-) TimerEvent: {}
+[7.343231] (-) TimerEvent: {}
+[7.444017] (-) TimerEvent: {}
+[7.544634] (-) TimerEvent: {}
+[7.579397] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/full_name__type_support_c.cpp.o\x1b[0m\n'}
+[7.644944] (-) TimerEvent: {}
+[7.745745] (-) TimerEvent: {}
+[7.846806] (-) TimerEvent: {}
+[7.948010] (-) TimerEvent: {}
+[8.049059] (-) TimerEvent: {}
+[8.150032] (-) TimerEvent: {}
+[8.251250] (-) TimerEvent: {}
+[8.352232] (-) TimerEvent: {}
+[8.453068] (-) TimerEvent: {}
+[8.553959] (-) TimerEvent: {}
+[8.654985] (-) TimerEvent: {}
+[8.755872] (-) TimerEvent: {}
+[8.856750] (-) TimerEvent: {}
+[8.957867] (-) TimerEvent: {}
+[9.058954] (-) TimerEvent: {}
+[9.160024] (-) TimerEvent: {}
+[9.261226] (-) TimerEvent: {}
+[9.362166] (-) TimerEvent: {}
+[9.463185] (-) TimerEvent: {}
+[9.564158] (-) TimerEvent: {}
+[9.665143] (-) TimerEvent: {}
+[9.765984] (-) TimerEvent: {}
+[9.866758] (-) TimerEvent: {}
+[9.967388] (-) TimerEvent: {}
+[10.068285] (-) TimerEvent: {}
+[10.169170] (-) TimerEvent: {}
+[10.270200] (-) TimerEvent: {}
+[10.371124] (-) TimerEvent: {}
+[10.472091] (-) TimerEvent: {}
+[10.572692] (-) TimerEvent: {}
+[10.673717] (-) TimerEvent: {}
+[10.774695] (-) TimerEvent: {}
+[10.875685] (-) TimerEvent: {}
+[10.976508] (-) TimerEvent: {}
+[11.077269] (-) TimerEvent: {}
+[11.178034] (-) TimerEvent: {}
+[11.278684] (-) TimerEvent: {}
+[11.379304] (-) TimerEvent: {}
+[11.479703] (-) TimerEvent: {}
+[11.580140] (-) TimerEvent: {}
+[11.680606] (-) TimerEvent: {}
+[11.781123] (-) TimerEvent: {}
+[11.883191] (-) TimerEvent: {}
+[11.912817] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.983337] (-) TimerEvent: {}
+[12.027290] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[12.055176] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.083454] (-) TimerEvent: {}
+[12.184581] (-) TimerEvent: {}
+[12.245151] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.284715] (-) TimerEvent: {}
+[12.388767] (-) TimerEvent: {}
+[12.445114] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[12.469168] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.488885] (-) TimerEvent: {}
+[12.589357] (-) TimerEvent: {}
+[12.692354] (-) TimerEvent: {}
+[12.792815] (-) TimerEvent: {}
+[12.894674] (-) TimerEvent: {}
+[12.895622] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.900158] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.994812] (-) TimerEvent: {}
+[13.093167] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/full_name__type_support.c.o\x1b[0m\n'}
+[13.096167] (-) TimerEvent: {}
+[13.151265] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.168195] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[13.198154] (-) TimerEvent: {}
+[13.259492] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.298292] (-) TimerEvent: {}
+[13.342471] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[13.387170] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/full_name__type_support.cpp.o\x1b[0m\n'}
+[13.398412] (-) TimerEvent: {}
+[13.448945] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.498536] (-) TimerEvent: {}
+[13.528459] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[13.601185] (-) TimerEvent: {}
+[13.604261] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[13.650655] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.701344] (-) TimerEvent: {}
+[13.801720] (-) TimerEvent: {}
+[13.902119] (-) TimerEvent: {}
+[14.002479] (-) TimerEvent: {}
+[14.102847] (-) TimerEvent: {}
+[14.203274] (-) TimerEvent: {}
+[14.303689] (-) TimerEvent: {}
+[14.404127] (-) TimerEvent: {}
+[14.422412] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[14.460188] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_full_name_s.c.o\x1b[0m\n'}
+[14.504301] (-) TimerEvent: {}
+[14.604982] (-) TimerEvent: {}
+[14.705862] (-) TimerEvent: {}
+[14.806734] (-) TimerEvent: {}
+[14.907879] (-) TimerEvent: {}
+[15.008885] (-) TimerEvent: {}
+[15.109857] (-) TimerEvent: {}
+[15.210846] (-) TimerEvent: {}
+[15.311768] (-) TimerEvent: {}
+[15.412704] (-) TimerEvent: {}
+[15.513683] (-) TimerEvent: {}
+[15.614368] (-) TimerEvent: {}
+[15.715015] (-) TimerEvent: {}
+[15.719054] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[15.797892] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[15.815194] (-) TimerEvent: {}
+[15.839714] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.843363] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.845981] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.917173] (-) TimerEvent: {}
+[16.017678] (-) TimerEvent: {}
+[16.092465] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.113376] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.117816] (-) TimerEvent: {}
+[16.140596] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.164433] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[16.184541] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[16.208777] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.217979] (-) TimerEvent: {}
+[16.229865] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[16.318071] (-) TimerEvent: {}
+[16.326218] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[16.344342] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces'], 'cwd': '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'kirill'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1673'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/kirill/.cache'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/kirill'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/kirill/Desktop/robotics/lab3/ex01'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kirill'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('LC_COLLATE', 'ru_RU.UTF-8'), ('PATH', '/opt/ros/humble/bin:/home/kirill/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XDG_DATA_HOME', '/home/kirill/.local/share'), ('XDG_CONFIG_HOME', '/home/kirill/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/kirill/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-86368d0bd9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb77BQo/agent.1621'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.360028] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.360500] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[16.361142] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[16.361528] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[16.361701] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/full_name.h\n'}
+[16.361948] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[16.362124] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__type_support.h\n'}
+[16.362450] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__functions.c\n'}
+[16.362674] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__struct.h\n'}
+[16.363025] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__functions.h\n'}
+[16.363313] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[16.363739] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.364398] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[16.364682] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[16.365010] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[16.365669] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[16.366024] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[16.366303] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[16.366544] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[16.366756] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_fastrtps_c.h\n'}
+[16.367264] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[16.367573] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.367839] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.368477] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.368765] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[16.369121] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[16.369515] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[16.369745] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_introspection_c.h\n'}
+[16.370086] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__type_support.c\n'}
+[16.370351] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[16.370594] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.370920] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[16.371271] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.371514] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[16.372115] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[16.372636] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[16.372880] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[16.373820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[16.374320] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__builder.hpp\n'}
+[16.374599] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__traits.hpp\n'}
+[16.374823] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__struct.hpp\n'}
+[16.375020] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/full_name.hpp\n'}
+[16.375241] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[16.375465] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[16.375654] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[16.375846] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.376034] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[16.376404] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[16.376825] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.377099] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.377323] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.377590] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[16.377783] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[16.377971] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[16.378187] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.379006] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__type_support.cpp\n'}
+[16.379346] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[16.379644] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.379890] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.380177] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[16.380375] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[16.380569] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[16.380877] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[16.381087] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.381388] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.381609] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.382163] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.382511] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[16.382855] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.383099] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[16.383433] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_full_name_s.c\n'}
+[16.383698] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_full_name.py\n'}
+[16.383921] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[16.384145] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.384449] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[16.384721] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[16.384989] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[16.385238] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.385528] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.385721] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.418332] (-) TimerEvent: {}
+[16.477334] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[16.477687] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[16.477911] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[16.478170] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[16.478407] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_full_name.py'...\n"}
+[16.486019] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.486833] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.487338] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.488097] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.488576] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.489316] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.489637] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[16.490711] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[16.491110] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName.idl\n'}
+[16.491532] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName.srv\n'}
+[16.491930] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName_Request.msg\n'}
+[16.492366] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName_Response.msg\n'}
+[16.492906] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[16.493517] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[16.493874] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[16.494213] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.494606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[16.494943] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[16.495204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[16.495511] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[16.495852] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[16.496229] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[16.496586] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[16.496970] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[16.497504] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[16.497816] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.498237] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.498586] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.498923] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.499313] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.499683] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[16.499996] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.500412] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[16.500774] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.501124] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.501496] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.501870] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.502250] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[16.502591] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.502932] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[16.503327] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.503651] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.503969] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.504367] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.504708] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.505012] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.505396] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.505726] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.506041] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[16.506344] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[16.506676] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[16.511147] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[16.519274] (-) TimerEvent: {}
+[16.619890] (-) TimerEvent: {}
+[16.658926] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[16.661177] (-) EventReactorShutdown: {}

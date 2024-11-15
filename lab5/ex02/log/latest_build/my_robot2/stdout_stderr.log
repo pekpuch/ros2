@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/src
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/src/description
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/src/description/robot.urdf.xacro
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/launch
+-- Installing: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/launch/launch.py
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/rviz
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/rviz/urdf_config.rviz
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/ament_index/resource_index/package_run_dependencies/my_robot2
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/ament_index/resource_index/parent_prefix_path/my_robot2
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/path.sh
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/path.dsv
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.bash
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.sh
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.zsh
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.dsv
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/package.dsv
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/ament_index/resource_index/packages/my_robot2
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/cmake/my_robot2Config.cmake
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/cmake/my_robot2Config-version.cmake
+-- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/package.xml

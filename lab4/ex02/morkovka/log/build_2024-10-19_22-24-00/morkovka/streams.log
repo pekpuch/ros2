@@ -1,0 +1,33 @@
+[2.295s] Invoking command in '/home/kirill/Desktop/robotics/lab4/ex02/morkovka': PYTHONPATH=/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/morkovka build --build-base /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build install --record /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log --single-version-externally-managed install_data
+[2.832s] running egg_info
+[2.833s] creating build/morkovka/morkovka.egg-info
+[2.833s] writing build/morkovka/morkovka.egg-info/PKG-INFO
+[2.834s] writing dependency_links to build/morkovka/morkovka.egg-info/dependency_links.txt
+[2.835s] writing entry points to build/morkovka/morkovka.egg-info/entry_points.txt
+[2.837s] writing requirements to build/morkovka/morkovka.egg-info/requires.txt
+[2.837s] writing top-level names to build/morkovka/morkovka.egg-info/top_level.txt
+[2.838s] writing manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+[2.841s] reading manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+[2.844s] writing manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+[2.844s] running build
+[2.845s] running build_py
+[2.845s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build
+[2.845s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib
+[2.846s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka
+[2.846s] copying morkovka/__init__.py -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka
+[2.846s] running install
+[2.846s] running install_lib
+[2.848s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka
+[2.849s] copying /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka/__init__.py -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka
+[2.850s] byte-compiling /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka/__init__.py to __init__.cpython-310.pyc
+[2.850s] running install_data
+[2.851s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index
+[2.852s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index/resource_index
+[2.852s] creating /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index/resource_index/packages
+[2.852s] copying resource/morkovka -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/ament_index/resource_index/packages
+[2.853s] copying package.xml -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/share/morkovka
+[2.853s] running install_egg_info
+[2.857s] Copying build/morkovka/morkovka.egg-info to /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka-0.0.0-py3.10.egg-info
+[2.859s] running install_scripts
+[2.976s] writing list of installed files to '/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log'
+[3.104s] Invoked command in '/home/kirill/Desktop/robotics/lab4/ex02/morkovka' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/morkovka build --build-base /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build install --record /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log --single-version-externally-managed install_data

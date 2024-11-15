@@ -1,0 +1,3 @@
+[console_scripts]
+move = unique_move.move:main
+

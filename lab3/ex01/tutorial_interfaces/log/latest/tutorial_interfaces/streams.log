@@ -1,0 +1,238 @@
+[0.017s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.370s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.555s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.845s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.075s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.124s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.289s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.190s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.631s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.677s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.876s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.877s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.878s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.930s] -- Found PythonExtra: .so  
+[4.198s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.202s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp>;/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_c;/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces/rosidl_generator_py
+[4.202s] -- Configured cppcheck exclude dirs and/or files: 
+[4.253s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.348s] -- Added test 'lint_cmake' to check CMake code style
+[4.357s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.401s] -- Added test 'uncrustify' to check C / C++ code style
+[4.401s] -- Configured uncrustify additional arguments: 
+[4.418s] -- Added test 'xmllint' to check XML markup files
+[4.568s] -- Configuring done
+[4.663s] -- Generating done
+[4.671s] -- Build files have been written to: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces
+[4.693s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces
+[4.695s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces -- -j4 -l4
+[4.799s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.823s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.850s] [  6%] Built target ament_cmake_python_copy_tutorial_interfaces
+[5.658s] running egg_info
+[5.659s] creating tutorial_interfaces.egg-info
+[5.659s] writing tutorial_interfaces.egg-info/PKG-INFO
+[5.661s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[5.663s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[5.663s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[5.667s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[5.669s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[5.716s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/full_name__functions.c.o[0m
+[5.734s] [  9%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[5.820s] [  9%] Built target tutorial_interfaces__cpp
+[5.844s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.849s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.855s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.501s] [ 22%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[6.617s] [ 22%] Built target tutorial_interfaces__rosidl_generator_c
+[6.636s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.662s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/full_name__type_support.cpp.o[0m
+[6.748s] [ 32%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/full_name__type_support.cpp.o[0m
+[6.820s] [ 35%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/full_name__type_support.cpp.o[0m
+[7.578s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/full_name__type_support_c.cpp.o[0m
+[11.912s] [ 41%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[12.026s] [ 41%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[12.054s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.244s] [ 48%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.444s] [ 48%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[12.468s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.894s] [ 54%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.899s] [ 58%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.092s] [ 61%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/full_name__type_support.c.o[0m
+[13.150s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[13.167s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.258s] [ 64%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.341s] [ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[13.386s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/full_name__type_support.cpp.o[0m
+[13.448s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[13.527s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_c
+[13.603s] [ 70%] Built target tutorial_interfaces
+[13.649s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.421s] [ 74%] Built target tutorial_interfaces__py
+[14.459s] [ 77%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_full_name_s.c.o[0m
+[15.718s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[15.797s] [ 80%] Built target tutorial_interfaces__rosidl_generator_py
+[15.838s] [ 83%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.843s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.845s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.091s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.112s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.139s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.163s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.183s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[16.207s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.229s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces -- -j4 -l4
+[16.344s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces
+[16.359s] -- Install configuration: ""
+[16.359s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[16.360s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.360s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.360s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/full_name.h
+[16.361s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.361s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__type_support.h
+[16.361s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__functions.c
+[16.361s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__struct.h
+[16.362s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__functions.h
+[16.362s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.362s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.363s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[16.363s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[16.364s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[16.364s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[16.365s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.365s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.365s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.365s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_fastrtps_c.h
+[16.366s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.366s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.366s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.367s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.367s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.368s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.368s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.368s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_introspection_c.h
+[16.369s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__type_support.c
+[16.369s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.369s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.370s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[16.370s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.370s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[16.371s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[16.371s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.372s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.373s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.373s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__builder.hpp
+[16.373s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__traits.hpp
+[16.373s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__struct.hpp
+[16.374s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/full_name.hpp
+[16.374s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.374s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.374s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.374s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_fastrtps_cpp.hpp
+[16.375s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[16.375s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.375s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.376s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.376s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.376s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.376s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.377s] -- Up-to-date: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.377s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__rosidl_typesupport_introspection_cpp.hpp
+[16.378s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/full_name__type_support.cpp
+[16.378s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.378s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.379s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[16.379s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.379s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[16.379s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[16.379s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[16.380s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[16.380s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.380s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[16.381s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.381s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[16.381s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.382s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[16.382s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_full_name_s.c
+[16.382s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_full_name.py
+[16.383s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[16.383s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.383s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[16.383s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[16.384s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[16.384s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.384s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.384s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.476s] Listing '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[16.476s] Compiling '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[16.477s] Listing '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[16.477s] Compiling '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[16.477s] Compiling '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_full_name.py'...
+[16.485s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.485s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.486s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.487s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.487s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.488s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.488s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[16.489s] -- Set runtime path of "/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[16.490s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName.idl
+[16.490s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName.srv
+[16.491s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName_Request.msg
+[16.491s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/srv/FullName_Response.msg
+[16.491s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[16.492s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[16.492s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[16.493s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[16.493s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[16.494s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[16.494s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[16.494s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[16.494s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[16.495s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[16.495s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[16.496s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[16.496s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[16.496s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.497s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.497s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.497s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.498s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.498s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[16.499s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.499s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[16.499s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.500s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.500s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.500s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.501s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[16.501s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.501s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[16.502s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.502s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.503s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.503s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.503s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.504s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.504s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.504s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.505s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[16.505s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[16.505s] -- Installing: /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[16.510s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kirill/Desktop/robotics/lab3/ex01/tutorial_interfaces/build/tutorial_interfaces

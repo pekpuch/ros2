@@ -1,0 +1,22 @@
+[2.000s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex01/src/service_full_name': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/build install --record /home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/install.log --single-version-externally-managed install_data
+[2.829s] running egg_info
+[2.831s] writing ../../build/service_full_name/service_full_name.egg-info/PKG-INFO
+[2.831s] writing dependency_links to ../../build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[2.832s] writing entry points to ../../build/service_full_name/service_full_name.egg-info/entry_points.txt
+[2.832s] writing requirements to ../../build/service_full_name/service_full_name.egg-info/requires.txt
+[2.833s] writing top-level names to ../../build/service_full_name/service_full_name.egg-info/top_level.txt
+[2.837s] reading manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[2.842s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[2.843s] running build
+[2.843s] running build_py
+[2.843s] running install
+[2.845s] running install_lib
+[2.847s] running install_data
+[2.848s] running install_egg_info
+[2.853s] removing '/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info' (and everything under it)
+[2.854s] Copying ../../build/service_full_name/service_full_name.egg-info to /home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info
+[2.857s] running install_scripts
+[2.933s] Installing client script to /home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/service_full_name
+[2.935s] Installing service script to /home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/service_full_name
+[2.935s] writing list of installed files to '/home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/install.log'
+[3.008s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex01/src/service_full_name' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex01/install/service_full_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/build install --record /home/kirill/Desktop/robotics/lab3/ex01/build/service_full_name/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.028s] Invoking command in '/home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2 -- -j4 -l4
+[0.100s] Invoked command in '/home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2 -- -j4 -l4
+[0.158s] Invoking command in '/home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2
+[0.175s] -- Install configuration: ""
+[0.175s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/src
+[0.175s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/src/description
+[0.176s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/src/description/robot.urdf.xacro
+[0.176s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/launch
+[0.176s] -- Installing: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/launch/launch.py
+[0.176s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/rviz
+[0.177s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/rviz/urdf_config.rviz
+[0.177s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/ament_index/resource_index/package_run_dependencies/my_robot2
+[0.178s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/ament_index/resource_index/parent_prefix_path/my_robot2
+[0.178s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/path.sh
+[0.178s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/environment/path.dsv
+[0.179s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.bash
+[0.179s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.sh
+[0.180s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.zsh
+[0.180s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/local_setup.dsv
+[0.180s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/package.dsv
+[0.184s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/ament_index/resource_index/packages/my_robot2
+[0.184s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/cmake/my_robot2Config.cmake
+[0.184s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/cmake/my_robot2Config-version.cmake
+[0.185s] -- Up-to-date: /home/kirill/Desktop/robotics/lab5/ex02/install/my_robot2/share/my_robot2/package.xml
+[0.185s] Invoked command in '/home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kirill/Desktop/robotics/lab5/ex02/build/my_robot2

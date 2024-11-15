@@ -1,0 +1,21 @@
+[1.889s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex05/move_to_goal': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex05/install/move_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/move_to_goal build --build-base /home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/build install --record /home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/install.log --single-version-externally-managed install_data
+[2.609s] running egg_info
+[2.610s] writing ../build/move_to_goal/move_to_goal.egg-info/PKG-INFO
+[2.611s] writing dependency_links to ../build/move_to_goal/move_to_goal.egg-info/dependency_links.txt
+[2.611s] writing entry points to ../build/move_to_goal/move_to_goal.egg-info/entry_points.txt
+[2.611s] writing requirements to ../build/move_to_goal/move_to_goal.egg-info/requires.txt
+[2.611s] writing top-level names to ../build/move_to_goal/move_to_goal.egg-info/top_level.txt
+[2.615s] reading manifest file '../build/move_to_goal/move_to_goal.egg-info/SOURCES.txt'
+[2.616s] writing manifest file '../build/move_to_goal/move_to_goal.egg-info/SOURCES.txt'
+[2.617s] running build
+[2.617s] running build_py
+[2.617s] running install
+[2.618s] running install_lib
+[2.620s] running install_data
+[2.620s] running install_egg_info
+[2.623s] removing '/home/kirill/Desktop/robotics/lab3/ex05/install/move_to_goal/lib/python3.10/site-packages/move_to_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[2.624s] Copying ../build/move_to_goal/move_to_goal.egg-info to /home/kirill/Desktop/robotics/lab3/ex05/install/move_to_goal/lib/python3.10/site-packages/move_to_goal-0.0.0-py3.10.egg-info
+[2.627s] running install_scripts
+[2.669s] Installing move script to /home/kirill/Desktop/robotics/lab3/ex05/install/move_to_goal/lib/move_to_goal
+[2.669s] writing list of installed files to '/home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/install.log'
+[2.717s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex05/move_to_goal' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex05/install/move_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/move_to_goal build --build-base /home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/build install --record /home/kirill/Desktop/robotics/lab3/ex05/build/move_to_goal/install.log --single-version-externally-managed install_data

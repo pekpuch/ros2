@@ -1,0 +1,4 @@
+import sys
+if sys.prefix == '/usr':
+    sys.real_prefix = sys.prefix
+    sys.prefix = sys.exec_prefix = '/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands'

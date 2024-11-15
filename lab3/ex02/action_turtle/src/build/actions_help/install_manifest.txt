@@ -1,0 +1,15 @@
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/ament_index/resource_index/package_run_dependencies/actions_help
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/ament_index/resource_index/parent_prefix_path/actions_help
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/ament_prefix_path.sh
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/ament_prefix_path.dsv
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/path.sh
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/environment/path.dsv
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.bash
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.sh
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.zsh
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/local_setup.dsv
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/package.dsv
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/ament_index/resource_index/packages/actions_help
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/cmake/actions_helpConfig.cmake
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/cmake/actions_helpConfig-version.cmake
+/home/kirill/Desktop/robotics/lab3/ex02/action_turtle/src/install/actions_help/share/actions_help/package.xml

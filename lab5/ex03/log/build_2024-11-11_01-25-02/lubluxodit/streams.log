@@ -1,0 +1,22 @@
+[1.253s] Invoking command in '/home/kirill/Desktop/robotics/lab5/ex03/lubluxodit': PYTHONPATH=/home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/lubluxodit build --build-base /home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/build install --record /home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/install.log --single-version-externally-managed install_data
+[1.744s] running egg_info
+[1.745s] writing ../build/lubluxodit/lubluxodit.egg-info/PKG-INFO
+[1.745s] writing dependency_links to ../build/lubluxodit/lubluxodit.egg-info/dependency_links.txt
+[1.746s] writing entry points to ../build/lubluxodit/lubluxodit.egg-info/entry_points.txt
+[1.746s] writing requirements to ../build/lubluxodit/lubluxodit.egg-info/requires.txt
+[1.746s] writing top-level names to ../build/lubluxodit/lubluxodit.egg-info/top_level.txt
+[1.750s] reading manifest file '../build/lubluxodit/lubluxodit.egg-info/SOURCES.txt'
+[1.752s] writing manifest file '../build/lubluxodit/lubluxodit.egg-info/SOURCES.txt'
+[1.752s] running build
+[1.752s] running build_py
+[1.752s] running install
+[1.753s] running install_lib
+[1.756s] running install_data
+[1.756s] copying description/robot.urdf -> /home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/share/lubluxodit/description
+[1.757s] copying description/gazebo.urdf -> /home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/share/lubluxodit/description
+[1.757s] running install_egg_info
+[1.760s] removing '/home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/lib/python3.10/site-packages/lubluxodit-0.0.0-py3.10.egg-info' (and everything under it)
+[1.760s] Copying ../build/lubluxodit/lubluxodit.egg-info to /home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/lib/python3.10/site-packages/lubluxodit-0.0.0-py3.10.egg-info
+[1.762s] running install_scripts
+[1.798s] writing list of installed files to '/home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/install.log'
+[1.847s] Invoked command in '/home/kirill/Desktop/robotics/lab5/ex03/lubluxodit' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab5/ex03/install/lubluxodit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/lubluxodit build --build-base /home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/build install --record /home/kirill/Desktop/robotics/lab5/ex03/build/lubluxodit/install.log --single-version-externally-managed install_data

@@ -1,0 +1,43 @@
+[1.076s] Invoking command in '/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/src/actions_turtle_commands': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/actions_turtle_commands build --build-base /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build install --record /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/install.log --single-version-externally-managed install_data
+[1.515s] running egg_info
+[1.517s] creating ../../build/actions_turtle_commands/actions_turtle_commands.egg-info
+[1.517s] writing ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/PKG-INFO
+[1.518s] writing dependency_links to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/dependency_links.txt
+[1.518s] writing entry points to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/entry_points.txt
+[1.518s] writing requirements to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/requires.txt
+[1.519s] writing top-level names to ../../build/actions_turtle_commands/actions_turtle_commands.egg-info/top_level.txt
+[1.519s] writing manifest file '../../build/actions_turtle_commands/actions_turtle_commands.egg-info/SOURCES.txt'
+[1.522s] reading manifest file '../../build/actions_turtle_commands/actions_turtle_commands.egg-info/SOURCES.txt'
+[1.523s] writing manifest file '../../build/actions_turtle_commands/actions_turtle_commands.egg-info/SOURCES.txt'
+[1.524s] running build
+[1.524s] running build_py
+[1.524s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build
+[1.524s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib
+[1.524s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+[1.525s] copying actions_turtle_commands/action_turtle_client.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+[1.525s] copying actions_turtle_commands/__init__.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+[1.525s] copying actions_turtle_commands/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands
+[1.525s] running install
+[1.525s] running install_lib
+[1.526s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+[1.527s] copying /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands/action_turtle_client.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+[1.527s] copying /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands/__init__.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+[1.527s] copying /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build/lib/actions_turtle_commands/action_turtle_server.py -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands
+[1.528s] byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands/action_turtle_client.py to action_turtle_client.cpython-310.pyc
+[1.529s] byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands/__init__.py to __init__.cpython-310.pyc
+[1.529s] byte-compiling /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands/action_turtle_server.py to action_turtle_server.cpython-310.pyc
+[1.531s] running install_data
+[1.531s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share
+[1.531s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index
+[1.531s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index/resource_index
+[1.532s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index/resource_index/packages
+[1.532s] copying resource/actions_turtle_commands -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/ament_index/resource_index/packages
+[1.532s] creating /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/actions_turtle_commands
+[1.532s] copying package.xml -> /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/share/actions_turtle_commands
+[1.532s] running install_egg_info
+[1.535s] Copying ../../build/actions_turtle_commands/actions_turtle_commands.egg-info to /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages/actions_turtle_commands-0.0.0-py3.10.egg-info
+[1.536s] running install_scripts
+[1.571s] Installing client script to /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/actions_turtle_commands
+[1.571s] Installing server script to /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/actions_turtle_commands
+[1.572s] writing list of installed files to '/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/install.log'
+[1.615s] Invoked command in '/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/src/actions_turtle_commands' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/install/actions_turtle_commands/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/actions_turtle_commands build --build-base /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/build install --record /home/kirill/Desktop/robotics/lab3/ex02/actions_turtle_commands/build/actions_turtle_commands/install.log --single-version-externally-managed install_data

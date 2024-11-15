@@ -1,0 +1,26 @@
+[1.242s] Invoking command in '/home/kirill/Desktop/robotics/lab4/ex02/morkovka': PYTHONPATH=/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/morkovka build --build-base /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build install --record /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log --single-version-externally-managed install_data
+[1.719s] running egg_info
+[1.721s] writing build/morkovka/morkovka.egg-info/PKG-INFO
+[1.721s] writing dependency_links to build/morkovka/morkovka.egg-info/dependency_links.txt
+[1.721s] writing entry points to build/morkovka/morkovka.egg-info/entry_points.txt
+[1.722s] writing requirements to build/morkovka/morkovka.egg-info/requires.txt
+[1.722s] writing top-level names to build/morkovka/morkovka.egg-info/top_level.txt
+[1.726s] reading manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+[1.728s] writing manifest file 'build/morkovka/morkovka.egg-info/SOURCES.txt'
+[1.728s] running build
+[1.728s] running build_py
+[1.729s] copying morkovka/dynamic_frame_tf2_broadcaster.py -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka
+[1.730s] running install
+[1.730s] running install_lib
+[1.732s] copying /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build/lib/morkovka/dynamic_frame_tf2_broadcaster.py -> /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka
+[1.735s] byte-compiling /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+[1.736s] running install_data
+[1.737s] running install_egg_info
+[1.741s] removing '/home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka-0.0.0-py3.10.egg-info' (and everything under it)
+[1.742s] Copying build/morkovka/morkovka.egg-info to /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages/morkovka-0.0.0-py3.10.egg-info
+[1.744s] running install_scripts
+[1.783s] Installing dynamic script to /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/morkovka
+[1.783s] Installing turtle_tf2_broadcaster script to /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/morkovka
+[1.783s] Installing turtle_tf2_listener script to /home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/morkovka
+[1.784s] writing list of installed files to '/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log'
+[1.832s] Invoked command in '/home/kirill/Desktop/robotics/lab4/ex02/morkovka' returned '0': PYTHONPATH=/home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/Desktop/robotics/lab4/ex02/morkovka/install/morkovka/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/morkovka build --build-base /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/build install --record /home/kirill/Desktop/robotics/lab4/ex02/morkovka/build/morkovka/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+move = move_to_goal.turtle_control:main
+
