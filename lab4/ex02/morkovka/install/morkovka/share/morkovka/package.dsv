@@ -1,6 +1,0 @@
-source;share/morkovka/hook/pythonpath.ps1
-source;share/morkovka/hook/pythonpath.dsv
-source;share/morkovka/hook/pythonpath.sh
-source;share/morkovka/hook/ament_prefix_path.ps1
-source;share/morkovka/hook/ament_prefix_path.dsv
-source;share/morkovka/hook/ament_prefix_path.sh
