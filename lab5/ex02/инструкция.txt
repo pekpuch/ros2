@@ -1,1 +1,0 @@
-ros2 launch my_robot2 launch.py
